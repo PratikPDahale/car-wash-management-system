@@ -131,23 +131,6 @@ cd ..\frontend
 npm run build
 ```
 
-## Current milestone
 
-- [x] React and Spring Boot application foundations
-- [x] MySQL logical schema for the blueprint's core and CRM entities
-- [x] Local H2 persistence and starter service catalog
-- [x] Read-only service catalog API and responsive client dashboard
-- [x] Customer sign-up/sign-in, JWT authorization, and owner-managed staff accounts
-- [x] Staff walk-in profiles, customer search, customer profile management, and vehicles
-- [x] Owner-managed service catalog with historical booking price snapshots
-- [x] Online and walk-in bookings, availability checks, slot capacity, cancellations, and service status history
-- [x] Automatic invoices for completed bookings and auditable, idempotent in-shop payments
-- [x] Loyalty ledger, capped point redemptions, dated offers, in-app reminders, and completed-service reviews
-- [x] Owner analytics dashboard with selectable 30/90/365-day reporting
-- [x] Role-scoped global search for customers, bookings, vehicles, and services
-- [x] Customer self-service Help & Support with FAQs, guides, and shop policies
-- [x] Persistent in-app notifications, role-based event routing, preferences, and owner announcements
-- [x] Local Docker Compose setup for the frontend, API, and persistent MySQL
-- [ ] Production deployment and operational hardening
 
 Owner and staff identities are provisioned by the owner; public registration always creates a customer account and cannot select a privileged role.
